@@ -12,7 +12,9 @@ The **TSOC_NEOLED** can provide several different intefaces in order to make
 interfacing large numbers of LED easy. Interface protocols include :
 
 1) UART Serial DMX-512 (200K Baud, N, 8, 1) with a 512 byte frame size.
+
 2) I2C Serial DMX-512, Memory Mapped (**TSOC_NEOLED** looks like a 512 byte I2C SRAM)
+
 3) SPI Serial DMX-512, Memory Mapped (**TSOC_NEOLED** looks like a 512 byte SPI SRAM)
 
 
