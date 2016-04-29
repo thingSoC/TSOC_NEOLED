@@ -9,7 +9,7 @@ These reference designs can serve as starting templates for user designs.
 **TSOC_NEOLED** uses a programmable system on chip (PSoC4) with an eight (8) channel driver
 to drive up to 512 WS2812 Color LED's, arranged as 64x8 (eight strings).
 The **TSOC_NEOLED** can provide several different intefaces in order to make
-interfacing large numbers of LED easy. Interface protocols include :
+interfacing large numbers of LEDs easy. Interface protocols include :
 
 1) UART Serial DMX-512 (200K Baud, N, 8, 1) with a 512 byte frame size.
 
