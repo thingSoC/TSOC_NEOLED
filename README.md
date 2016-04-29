@@ -18,7 +18,7 @@ interfacing large numbers of LEDs easy. Interface protocols include :
 3) SPI Serial DMX-512, Memory Mapped (**TSOC_NEOLED** looks like a 512 byte SPI SRAM)
 
 
-[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/TSC_NEOLED_top.png?raw=true)*TSOC_NEOLED*](https://github.com/thingSoC/TSOC_NEOLED)
+[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/TSOC_NEOLED_top.png?raw=true)*TSOC_NEOLED*](https://github.com/thingSoC/TSOC_NEOLED)
 
 ---------------------------------------
 
