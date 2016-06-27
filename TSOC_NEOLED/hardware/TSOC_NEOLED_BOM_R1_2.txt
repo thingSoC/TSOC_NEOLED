@@ -1,0 +1,52 @@
+Partlist exported from U:/PatternAgents/eagle/TSOC_Modules/TSOC_NEOLED/TSOC_NEOLED/TSOC_NEOLED.sch at 6/27/2016 2:40:16 PM
+
+Part  Value           Device               Package           Description                                                     BOM     MPN         OC_FARNELL OC_NEWARK PACKAGE  SUPPLIER         
+$$U$1 TSOC-LOGO-SMALL TSOC-LOGO-SMALL      TSOC-LOGO-SML     thingSoC Logo                                                                                                                      
+$$U$2 TSOC-LOGO-MED   TSOC-LOGO-MED        TSOC-LOGO-MED     thingSoC Logo                                                                                                                      
+5V    M02             M02                  1X02                                                                                                                                                 
+5V1   M02             M02                  1X02                                                                                                                                                 
+C1    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C2    1uF             CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C3    2.2nF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C4    10nF            CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C5    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C6    1uF             CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C7    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C8    1uF             CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C9    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C10   0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+D1                    LED0603              LED-0603          LEDs                                                                                                                               
+DCD                   JMP-2-NO             JMP-2-NO          Two Terminal Jumper - Normally Open                             EXCLUDE                                                            
+DSR                   JMP-2-NO             JMP-2-NO          Two Terminal Jumper - Normally Open                             EXCLUDE                                                            
+DTR                   JMP-2-NO             JMP-2-NO          Two Terminal Jumper - Normally Open                             EXCLUDE                                                            
+IO1                   JMP-2-NO             JMP-2-NO          Two Terminal Jumper - Normally Open                             EXCLUDE                                                            
+IO2                   JMP-2-NO             JMP-2-NO          Two Terminal Jumper - Normally Open                             EXCLUDE                                                            
+J1                    M08X2                2X8               .1" headers, two rows of 8 each                                                                                                    
+J2                    M08                  1X08_ROUND        Header 8                                                                                                                           
+J3                    M08                  1X08_ROUND        Header 8                                                                                                                           
+J4                    M08                  1X08_ROUND        Header 8                                                                                                                           
+R1    2K2             RESISTOR_SFE0603-RES 0603-RES          Resistor                                                                                                                           
+R2    2K2             RESISTOR_SFE0603-RES 0603-RES          Resistor                                                                                                                           
+R3                    RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R4                    RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R5                    RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R6                    RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R7                    RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R8                    RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R9    10K             RESISTOR_SFE0603-RES 0603-RES          Resistor                                                                                                                           
+R10                   RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R11                   RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R12   1K              RESISTOR_SFE0603-RES 0603-RES          Resistor                                                                                                                           
+RI                    JMP-2-NO             JMP-2-NO          Two Terminal Jumper - Normally Open                             EXCLUDE                                                            
+SJ1   JMP-2-NC        JMP-2-NC             JMP-2-NC          Two Terminal Jumper - Normally Closed                           EXCLUDE                                                            
+SJ2   JMP-3-NC        JMP-3-NC             JMP-3-NC          Three Terminal Jumper - ALL Connected                           EXCLUDE                                                            
+SP1   M02             M02                  1X02                                                                                                                                                 
+SP2   M02             M02                  1X02                                                                                                                                                 
+SS1                   JMP-2-NO             JMP-2-NO          Two Terminal Jumper - Normally Open                             EXCLUDE                                                            
+SS2                   JMP-2-NO             JMP-2-NO          Two Terminal Jumper - Normally Open                             EXCLUDE                                                            
+TSOC  TSOC-32-BB      TSOC-32-BB           TSOC-BB-S32       thingSoC Thirty-Two (32) Pin Socket                                                                                                
+U$1   TSOC-PCB-PLUS   TSOC-PCB-PLUS        TSOC-BB-BRD-PLUS  thingSoC PCB Outlines                                                                                                              
+U$100 TSOC-LOGO-SMALL TSOC-LOGO-SMALL      TSOC-LOGO-SML     thingSoC Logo                                                                                                                      
+U$101 TSOC-LOGO-LRG   TSOC-LOGO-LRG        TSOC-LOGO-LRG     thingSoC Logo                                                                                                                      
+U1    SN74HC245PW     SN74HC245PW          SOP65P640X120-20N OCTAL BUS TRANSCEIVERS                                                  SN74HC245PW 1236221    13M5213   TSSOP-20 Texas Instruments
+U2    CY8C42XX-44PIN  CY8C42XX-44PIN       TQFP-10X10-44     Cypress PSoC® 4 - Programmable System on Chip,  Cortex-M0 Based                                                                    
