@@ -35,7 +35,10 @@ Using the TSOC_NEOLED to drive eight(8) strings of color LEDs for lighting our t
 ## TSOC_NEOLED Status <a name="TSOC_NEOLED_status"/>
 
 **04/28/2016:** 
-Revision 1.0 - New Layout with Eight(8) channel driver
+Revision 1.1 - Initial Layout with Eight(8) channel driver.
+
+**06/27/2016**
+Revision 1.2 - Added extra power connections for higher current support.
 
 
 ---------------------------------------
