@@ -26,7 +26,7 @@ Other Interface protocols (planned for later in 2016) :
 
 ## TSOC_NEOLED Application Pictures
 
-Using the TSOC_NEOLED to drive eight(8) strings of color LEDs for lighting out bike for the Rose Festival Parade
+Using the TSOC_NEOLED to drive eight(8) strings of color LEDs for lighting our tandem bike for PedalPolooza 2016
 
 [![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/light_the_ride2.png?raw=true)*TSOC_NEOLED*](https://github.com/thingSoC/TSOC_NEOLED)
 
