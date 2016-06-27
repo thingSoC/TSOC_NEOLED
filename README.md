@@ -38,12 +38,12 @@ Under the "examples" directory are several Arduino IDE examples for using the TS
 Using the Arduino "Wire" library for I2C communications, it is simple to control the TSOC_NEOLED
 
 ```c
-        // Turn one color of one LED On
-        Wire.beginTransmission(TSOC_NEOLED_I2CADDRESS);  // Start the I2C transaction
-        Wire.write(row);                                 // Send the high byte of 16 bit memory address
-        Wire.write(column);                              // Send the low byte of 16 bit memory address  (ie. the 
-        Wire.write(TSOC_NEOLED_LED_ON);                  // Send a single data byte  (we could send more...)
-        Wire.endTransmission();                          // End the I2C transaction
+ // Turn one color of one LED On
+ Wire.beginTransmission(TSOC_NEOLED_I2CADDRESS);  // Start the I2C transaction
+ Wire.write(row);                                 // Send the high byte of 16 bit memory address
+ Wire.write(column);                              // Send the low byte of 16 bit memory address  (ie. the 
+ Wire.write(TSOC_NEOLED_LED_ON);                  // Send a single data byte  (we could send more...)
+ Wire.endTransmission();                          // End the I2C transaction
 ```
 
 ---------------------------------------
