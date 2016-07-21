@@ -1,13 +1,11 @@
 # TSOC_NEOLED
 
-**TSOC_NEOLED** is a Eight-Channel WS2812 driver exapnsion board **thingSoC Reference Design.** 
-
-**thingSoC Reference Designs** are example thingSoC implementations that implement
-various reference and testing circuits for demonstrating the use of the thingSoC libraries.
-These reference designs can serve as starting templates for user designs.
+**TSOC_NEOLED** is a Eight-Channel WS2812 LED driver expansion board, and can drive
+eight (8) to sixteen(16) strips of individually addressable Light Emitting Diodes (LEDs). 
 
 **TSOC_NEOLED** uses a programmable system on chip (PSoC4) with an eight (8) channel driver
-to drive up to 512 WS2812 Color LED's, arranged as 64x8 (eight strings).
+to drive hundreds of WS2812 Color LED's, with a default arrangement of 8 (eight strings) of sixty-four(64) LEDs each.
+
 The **TSOC_NEOLED** can provide several different intefaces in order to make
 interfacing large numbers of LEDs easy. The default protocol is an I2C interface :
 
@@ -22,11 +20,15 @@ Other Interface protocols (Firmware update using FTDI/USB-UART or JTAG) :
 
 [![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/TSOC_NEOLED_top.png?raw=true)*TSOC_NEOLED*](https://github.com/thingSoC/TSOC_NEOLED)
 
+**thingSoC Reference Designs** are example thingSoC implementations that implement
+various reference and testing circuits for demonstrating the use of the thingSoC libraries.
+These reference designs can serve as starting templates for user designs.
+
 ---------------------------------------
 
 ## TSOC_NEOLED Application Pictures
 
-Using the TSOC_NEOLED to drive eight(8) strings of color LEDs for lighting our tandem bike for PedalPolooza 2016
+Using the TSOC_NEOLED to drive eight(8) strings of color LEDs for lighting our tandem bike for Portland PedalPolooza 2016
 
 [![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/light_the_ride2.png?raw=true)*TSOC_NEOLED*](https://github.com/thingSoC/TSOC_NEOLED)
 
@@ -38,12 +40,28 @@ Under the "examples" directory are several Arduino IDE examples for using the TS
 Using the Arduino "Wire" library for I2C communications, it is simple to control the TSOC_NEOLED
 
 ```c
- // Turn one color of one LED On
- Wire.beginTransmission(TSOC_NEOLED_I2CADDRESS);  // Start the I2C transaction
- Wire.write(row);                                 // Send the high byte of 16 bit memory address
- Wire.write(column);                              // Send the low byte of 16 bit memory address
- Wire.write(TSOC_NEOLED_LED_ON);                  // Send a single data byte  (we could send more...)
- Wire.endTransmission();                          // End the I2C transaction
+  // Start the Arduino I2C Interface
+  wire.begin();
+ 
+
+  // Turn the first LED On (i.e. green LED #1) 
+  // the LED's are (GRBY) color order in memory
+  byte row, column = 0;
+  Wire.beginTransmission(TSOC_NEOLED_I2CADDRESS);  // Start the I2C transaction
+  Wire.write(row);                                 // Send the high byte of 16 bit memory address
+  Wire.write(column);                              // Send the low byte of 16 bit memory address
+  Wire.write(TSOC_NEOLED_LED_ON);                  // Send a single data byte  (we could send more...)
+  Wire.endTransmission();                          // End the I2C transaction
+ 
+  // Turn the first LED Off (i.e. green LED #1) 
+  // the LED's are (GRBY) color order in memory
+  Wire.beginTransmission(TSOC_NEOLED_I2CADDRESS);  // Start the I2C transaction
+  Wire.write(row);                                 // Send the high byte of 16 bit memory address
+  Wire.write(column);                              // Send the low byte of 16 bit memory address
+  Wire.write(TSOC_NEOLED_LED_OFF);                  // Send a single data byte  (we could send more...)
+  Wire.endTransmission();                          // End the I2C transaction
+ 
+ 
 ```
 
 ---------------------------------------
