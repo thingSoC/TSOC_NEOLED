@@ -13,7 +13,7 @@ interfacing large numbers of LEDs easy. The default protocol is an I2C interface
 
 1) I2C Serial DMX-512, Memory Mapped (**TSOC_NEOLED** looks like a 2048 byte I2C SRAM)
 
-Other Interface protocols (planned for later in 2016) :
+Other Interface protocols (Firmware update using FTDI/USB-UART or JTAG) :
 
 2) UART Serial DMX-512 (200K Baud, N, 8, 1) with four DMX universes.
 
