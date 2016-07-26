@@ -75,6 +75,12 @@ Revision 1.1 - Initial Layout with Eight(8) channel driver.
 Revision 1.2 - Added extra power connections for higher current support.
 
 
+**07/26/2016:**
+Revision 2.0 - Moved extra jumpers to the Digital Programming Connector (i.e. boot-mode control).
+               Added SAR Bypass capactitors in their place.
+               Misc Silkscreen clean up.
+               Add Fiducials and DFM cleanup
+
 ---------------------------------------
 
 ## TSOC_NEOLED Documentation Index <a name="TSOC_NEOLED_documentation_index"/>
