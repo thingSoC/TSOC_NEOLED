@@ -77,8 +77,11 @@ Revision 1.2 - Added extra power connections for higher current support.
 
 **07/26/2016:**
 Revision 2.0 - Moved extra jumpers to the Digital Programming Connector (i.e. boot-mode control).
-               Added SAR Bypass capactitors in their place.
-               Misc Silkscreen clean up.
+
+               Added SAR Bypass capactitors in their place.  
+               
+               Misc Silkscreen clean up.  
+               
                Add Fiducials and DFM cleanup
 
 ---------------------------------------
