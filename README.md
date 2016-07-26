@@ -84,7 +84,7 @@ Revision 2.0 -
                
                Misc Silkscreen clean up.  
                
-               Add Fiducials and DFM cleanup
+               Add Fiducials and DFM cleanup.
 
 ---------------------------------------
 
