@@ -1,0 +1,40 @@
+Partlist exported from U:/PatternAgents/eagle/TSOC_Modules/TSOC_NEOLED/TSOC_NEOLED/TSOC_NEOLED.sch at 7/26/2016 10:40:16 PM
+Revison 2.0
+------------
+Part  Value           Device               Package           Description                      DIGIKEY               MPN 
+C1    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                     490-1524-2-ND          muRata GRM188R71E104KA01D                                                                                       
+C2    1uF             CAP0603-CAP          0603-CAP          Capacitor                                            muRata GRM185R61C105K                                                                        
+C3    2.2nF           CAP0603-CAP          0603-CAP          Capacitor                                            muRata GRM188R61C225K                                                                        
+C4    10nF            CAP0603-CAP          0603-CAP          Capacitor                     490-4778-1-ND          muRata GCM188R71H103KA37D                                                                                          
+C5    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C6    1uF             CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C7    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C8    1uF             CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C9    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C10   0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C11   0.1uF           CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+C12   1uF             CAP0603-CAP          0603-CAP          Capacitor                                                                                                                          
+D1    RED             LED0603              LED-0603          LEDs                             475-2506-1-ND        OSRAM   LS L29K-G1J2-1-Z                                                                                          
+J1    M08X02          M08X2                2X8               .1" headers, Male, Shrouded, RA  ED10535-ND           On-Shore-Technology-Inc. 302-R161                                                                                            
+J2    M08             M08                  1X08              .1" headers, Male, Unshrouded,   S1012EC-08-ND        Sullins  PREC008SAAN-RC                                                                                                                       
+J3    M08             M08                  1X08              .1" headers, Male, Unshrouded,   S1012EC-08-ND        Sullins  PREC008SAAN-RC                                                                                                                        
+J4    M08             M08                  1X08              .1" headers, Male, Unshrouded,   S1012EC-08-ND        Sullins  PREC008SAAN-RC
+J5    M02             M02                  1X02              .1" headers, Male, Unshrouded                                                                                      
+J6    M02             M02                  1X02              .1" headers, Male, Unshrouded                                                                           
+R1    2K2             RESISTOR0603-RES     0603-RES          Resistor                         RMCF0603JT2K20TR-ND   Stackpole RMCF0603JT2K20                                                                                                  
+R2    2K2             RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R3    0               RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R4    0               RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R5    0               RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R6    0               RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R7    0               RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R8    0               RESISTOR0603-RES     0603-RES          Resistor                                                                                                                        
+R9    10K             RESISTOR0603-RES     0603-RES          Resistor                         RMCF0603JT10K0TR-ND   Stackpole RMCF0603JT10K0                                                                                           
+R10   0               RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R11   0               RESISTOR0603-RES     0603-RES          Resistor                                                                                                                           
+R12   1K              RESISTOR0603-RES     0603-RES          Resistor                         RMCF0603JT1K00TR-ND   Stackpole RMCF0603JT1K00                                                                                                                                                             
+TSOC1 M12             M12                  1X12F             .1" headers, Female              S6100-ND               PPTC121LFBN-RC
+TSOC2 M12             M12                  1X12F             .1" headers, Female              S6100-ND               PPTC121LFBN-RC
+TSOC3 M08             M08                  1X08F             .1" headers, Female              S7006-ND               PPTC081LFBN-RC                                                                                               
+U1    SN74HCT245PWR    SN74HCT245PWR       SOP65P640X120-20N OCTAL BUS TRANS                  296-8404-1-ND          SN74HCT245PWR
+U2    CY8C42XX-44PIN  CY8C42XX-44PIN       TQFP-10X10-44     Cypress PSoC® 4                  CY8C4245AXI-483
