@@ -77,6 +77,10 @@ You can reprogram the board using any FTDI compatible USB to UART adapter :
 
 [![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_with_usbuart2_1.png?raw=true)TSOC_NEOLED with TSOC_USBUART2](https://github.com/thingSoC/TSOC_NEOLED)
 
+
+[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_bootloader.png?raw=true)PSoC Creator Bootloader Host](https://github.com/thingSoC/TSOC_NEOLED)
+
+
 ---------------------------------------
 ## Other Applications
 
