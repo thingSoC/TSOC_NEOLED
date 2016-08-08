@@ -11,14 +11,14 @@ interfacing large numbers of LEDs easy. The default protocol is an I2C interface
 
 1) I2C Serial DMX-512, Memory Mapped (**TSOC_NEOLED** looks like a 2048 byte I2C SRAM)
 
-Other Interface protocols (Firmware update using FTDI/USB-UART or JTAG) :
+Other Interface protocols are possible (Firmware update using FTDI/USB-UART or JTAG) :
 
-2) UART Serial DMX-512 (200K Baud, N, 8, 1) with four DMX universes.
+- UART Serial DMX-512 (200K Baud, N, 8, 1) with four DMX universes.
 
-3) SPI Serial DMX-512, Memory Mapped (**TSOC_NEOLED** looks like a 2048 byte SPI SRAM)
+- SPI Serial DMX-512, Memory Mapped (**TSOC_NEOLED** looks like a 2048 byte SPI SRAM)
 
 
-[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/TSOC_NEOLED_top.png?raw=true)*TSOC_NEOLED*](https://github.com/thingSoC/TSOC_NEOLED)
+[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED.png?raw=true)TSOC_NEOLED](https://github.com/thingSoC/TSOC_NEOLED)
 
 **thingSoC Reference Designs** are example thingSoC implementations that implement
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.
@@ -85,6 +85,16 @@ Revision 2.0 -
                Misc Silkscreen clean up.  
                
                Add Fiducials and DFM cleanup.
+
+---------------------------------------
+## TSOC_NEOLED Model Images
+
+
+[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/TSOC_NEOLED_top.png?raw=true)TSOC_NEOLED](https://github.com/thingSoC/TSOC_NEOLED)
+
+
+[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/TSOC_NEOLED_bot.png?raw=true)TSOC_NEOLED](https://github.com/thingSoC/TSOC_NEOLED)
+
 
 ---------------------------------------
 

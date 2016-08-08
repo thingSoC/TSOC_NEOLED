@@ -2,7 +2,7 @@ Partlist exported from U:/PatternAgents/eagle/TSOC_Modules/TSOC_NEOLED/TSOC_NEOL
 Revison 2.0
 ------------
 Part  Value           Device               Package           Description                      DIGIKEY               MPN 
-C1    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                     490-1524-2-ND          muRata GRM188R71E104KA01D                                                                                       
+C1    0.1uF           CAP0603-CAP          0603-CAP          Capacitor                     490-1524-2-ND          muRata GRM188R71E104KA01D  
 C2    1uF             CAP0603-CAP          0603-CAP          Capacitor                                            muRata GRM185R61C105K                                                                        
 C3    2.2nF           CAP0603-CAP          0603-CAP          Capacitor                                            muRata GRM188R61C225K                                                                        
 C4    10nF            CAP0603-CAP          0603-CAP          Capacitor                     490-4778-1-ND          muRata GCM188R71H103KA37D                                                                                          
