@@ -71,6 +71,21 @@ You can reprogram the board using any FTDI compatible USB to UART adapter :
 
 [![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_with_FTDI.png?raw=true)TSOC_NEOLED with FTDI basic](https://github.com/thingSoC/TSOC_NEOLED)
 
+
+[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_with_usbuart2.png?raw=true)TSOC_NEOLED with TSOC_USBUART2](https://github.com/thingSoC/TSOC_NEOLED)
+
+
+[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_with_usbuart2_1.png?raw=true)TSOC_NEOLED with TSOC_USBUART2](https://github.com/thingSoC/TSOC_NEOLED)
+
+---------------------------------------
+## Other Applications
+
+The TSOC_NEOLED can also drive other devices, such as Servos, Motors, Realys and more.
+This requires custom firmware at the current time.
+
+[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_servo.png?raw=true)TSOC_NEOLED with Servo](https://github.com/thingSoC/TSOC_NEOLED)
+
+
 ---------------------------------------
 
 ## TSOC_NEOLED Status <a name="TSOC_NEOLED_status"/>
