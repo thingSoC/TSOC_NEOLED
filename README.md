@@ -82,7 +82,7 @@ In order to reprogram the Cypress PSoC4 device, you will need to download and in
 
 Select Tools -> Bootloader Host 
 
-Then select the hex (cyacd) file that you wilsh to program, and the COM: port of your device. Proess the "Upload" bitton to reflash teh device.
+Then select the hex (cyacd) file that you wish to program, and the COM: port of your device. Proess the "Upload" button to reflash teh device.
 
 [![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_bootloader.png?raw=true)PSoC Creator Bootloader Host](https://github.com/thingSoC/TSOC_NEOLED)
 
