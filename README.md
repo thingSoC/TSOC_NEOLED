@@ -65,6 +65,13 @@ Using the Arduino "Wire" library for I2C communications, it is simple to control
 ```
 
 ---------------------------------------
+## TSOC_NEOLED Programming
+
+You can reprogram the board using any FTDI compatible USB to UART adapter :
+
+[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_with_FTDI.png?raw=true)TSOC_NEOLED with FTDI basic](https://github.com/thingSoC/TSOC_NEOLED)
+
+---------------------------------------
 
 ## TSOC_NEOLED Status <a name="TSOC_NEOLED_status"/>
 
