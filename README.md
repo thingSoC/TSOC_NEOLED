@@ -78,6 +78,12 @@ You can reprogram the board using any FTDI compatible USB to UART adapter :
 [![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_with_usbuart2_1.png?raw=true)TSOC_NEOLED with TSOC_USBUART2](https://github.com/thingSoC/TSOC_NEOLED)
 
 
+In order to reprogram the Cypress PSoC4 device, you will need to download and install the PSoC Creator tool, which includes a serial bootloader host application.
+
+Select Tools -> Bootloader Host 
+
+Then select the hex (cyacd) file that you wilsh to program, and the COM: port of your device. Proess the "Upload" bitton to reflash teh device.
+
 [![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_NEOLED/master/TSOC_NEOLED/images/product/TSOC_NEOLED_bootloader.png?raw=true)PSoC Creator Bootloader Host](https://github.com/thingSoC/TSOC_NEOLED)
 
 
